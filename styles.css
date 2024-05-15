@@ -1,0 +1,60 @@
+/* Ensure the body takes full height and centers content */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://t4.ftcdn.net/jpg/07/13/90/99/360_F_713909980_US4MJwpq0ec1fkvmYthVGFjfP5KdnOOX.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+/* Centering container and setting styles */
+.container {
+  text-align: center;
+}
+
+.question {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.rabbit {
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1em;
+  padding: 20px 40px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.yes {
+  background-color: #4caf50;
+  color: white;
+}
+
+button.no {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.response {
+  font-size: 1.5em;
+  margin-top: 90px;
+  display: none; /* Hidden by default */
+}
